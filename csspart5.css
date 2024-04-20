@@ -1,0 +1,17 @@
+.container{
+    width: 600px;
+    height: 1000px;
+    border: 1px solid darkblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.container div{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.5em;
+}
